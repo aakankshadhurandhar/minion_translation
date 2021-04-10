@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --opensans: 'Open Sans', sans-serif;
+    --max_width: 600px;
+}
+
+body {
+
+    color: black;
+    margin: 0;
+}
+
+nav {
+    background-color:yellow;
+    color: black;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    text-align: center;
+
+}
+
+::placeholder {
+    color: black;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--max_width);
+
+}
+
+#txt-input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    font-size: large;
+    border-radius: 1rem;
+    border-color: black;
+    text-align: center;
+
+}
+
+#btn-translate {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: black;
+    color: white;
+    font-size: large;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+
+#btn-translate:hover {
+    color: black;
+    background-color: white;
+}
+
+#txt-output {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    max-height: 30vh;
+    border: 2px solid black;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: large;
+
+
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: .5rem;
+    background-color: yellow;
+    text-align: center;
+
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+
+
+
+
+.footer ul {
+    list-style: none;
+    display: inline;
+
+
+}
+
+.footer li {
+    display: inline;
+
+}
+
+/**icons social media **/
+.footer .fa-linkedin {
+    color: black;
+    background-color: yellow;
+    padding: 10px 20px 20px 10px;
+    font-size: 30px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+footer .fa-google {
+    background-color: yellow;
+    padding: 10px 20px 20px 10px;
+    font-size: 30px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2rem;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+footer .fa-medium {
+    color: black;
+    background-color:yellow;
+    padding: 10px 25px 20px 15px;
+    font-size: 30px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+}
+
+footer .fa-twitter {
+    color: black;
+    background-color:yellow;
+    padding: 10px 25px 20px 15px;
+    font-size: 30px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2rem;
+    border-radius: 0.5rem;
+}
+
+footer .fa-link {
+    color: black;
+    background-color:yellow;
+    padding: 10px 25px 20px 15px;
+    font-size: 30px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2rem;
+    border-radius: 0.5rem;
+}
